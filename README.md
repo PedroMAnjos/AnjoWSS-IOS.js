@@ -1,9 +1,9 @@
 # AnjoWSS-IOS.js
 
 
-const KELLERSS_IOS = "https://raw.githubusercontent.com/kellerzz/KellerSS-iOS/refs/heads/main/KellerSS-iOS.js"
+const AnjoWSS-IOS.js = "https://github.com/PedroMAnjos/AnjoWSS-IOS.js/blob/main/AnjoWSS-IOS.js"
 
-let req = new Request(KELLERSS_IOS)
+let req = new Request(AnjoWSS-IOS.js)
 let code = await req.loadString()
 
 if (!code || code.startsWith("404")) {
