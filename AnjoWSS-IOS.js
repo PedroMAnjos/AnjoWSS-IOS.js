@@ -1,22 +1,22 @@
 const DEVICE_LANG = (Device.language() || "pt").toLowerCase().substring(0, 2)
 const SPEECH = {
   pt: {
-    start:    "AnjoW SS esta analisando, aguarde terminar",
+    start:    "Analisando, aguarde o AnjoW terminar",
     half:     "Scanner em cinquenta por cento. Aguarde mais um pouco.",
     probe:    "Scanner em noventa por cento. Aguarde mais um pouco.",
-    done:     "AnjoW SS finalizado. Analise os resultados com cuidado.",
+    done:     "AnjoW finalizado. Analise os resultados com cuidado.",
   },
   en: {
-    start:    "AnjoW SS is analyzing, please wait for it to finish.",
+    start:    "Analyzing, please wait for AnjoW to finish.",
     half:     "Scanner at fifty percent. Please wait a little longer.",
     probe:    "Scanner at ninety percent. Almost done.",
-    done:     "AnjoW SS finished. Analyze the results carefully.",
+    done:     "AnjoW finished. Analyze the results carefully.",
   },
   es: {
-    start:    "Analizando, espera que AnjoW SS termine.",
+    start:    "Analizando, espera que AnjoW termine.",
     half:     "Escáner al cincuenta por ciento. Espera un poco más.",
     probe:    "Escáner al noventa por ciento. Ya casi termina.",
-    done:     "AnjoW SS finalizado. Analiza los resultados con cuidado.",
+    done:     "AnjoW finalizado. Analiza los resultados con cuidado.",
   },
 }
 const S = SPEECH[DEVICE_LANG] || SPEECH["pt"]
@@ -1594,8 +1594,8 @@ function buildHTML(findings, netEntries, cheatAppFindings, knownCheatFindings, i
 
 <div class="hero">
   <div class="hero-eyebrow">Scanner iOS</div>
-  <div class="hero-name">AnjoW<span> SS</span></div>
-  <div class="hero-credits">por <span class="credit-name">AnjoW</span> &middot; <span class="credit-name">Samir</span> &middot; <span class="credit-name">Katiau</span></div>
+  <div class="hero-name">AnjoW07<span>SS</span></div>
+  <div class="hero-credits">por <span class="credit-name">AnjoW07</span> &middot; <span class="credit-name">AnjoW07</span> &middot; <span class="credit-name">AnjoW07</span></div>
   <div class="lang-bar">
     <button class="lang-btn active" id="btn-pt">PT-BR</button>
     <button class="lang-btn" id="btn-en">EN</button>
@@ -1716,7 +1716,7 @@ function buildLangScript() {
 var TRANSLATIONS = {
   pt: {
     eyebrow: "Scanner iOS",
-    credits: "por AnjoW · Samir · Katiau",
+    credits: "por AnjoW07",
     fileLabel: "Arquivo:",
     start: "Início",
     lastRecord: "Último registro",
@@ -1793,7 +1793,7 @@ var TRANSLATIONS = {
   },
   en: {
     eyebrow: "iOS Scanner",
-    credits: "by AnjoW · Samir · Katiau",
+    credits: "by AnjoW07 ",
     fileLabel: "File:",
     start: "Start",
     lastRecord: "Last record",
@@ -1870,7 +1870,7 @@ var TRANSLATIONS = {
   },
   es: {
     eyebrow: "Scanner iOS",
-    credits: "por AnjoW · Samir · Katiau",
+    credits: "por AnjoW07",
     fileLabel: "Archivo:",
     start: "Inicio",
     lastRecord: "Último registro",
@@ -2178,7 +2178,7 @@ async function showResult(html) {
   let langScript = `var TRANSLATIONS = {
   pt: {
     eyebrow: "Scanner iOS",
-    credits: "por AnjoW · Samir · Katiau",
+    credits: "por AnjoW07 ",
     fileLabel: "Arquivo:",
     start: "Início",
     lastRecord: "Último registro",
@@ -2255,7 +2255,7 @@ async function showResult(html) {
   },
   en: {
     eyebrow: "iOS Scanner",
-    credits: "by AnjoW · Samir · Katiau",
+    credits: "by AnjoW07 ",
     fileLabel: "File:",
     start: "Start",
     lastRecord: "Last record",
@@ -2332,7 +2332,7 @@ async function showResult(html) {
   },
   es: {
     eyebrow: "Scanner iOS",
-    credits: "por AnjoW · Samir · Katiau",
+    credits: "por AnjoW07 ",
     fileLabel: "Archivo:",
     start: "Inicio",
     lastRecord: "Último registro",
